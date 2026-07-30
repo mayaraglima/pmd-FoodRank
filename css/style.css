@@ -869,3 +869,59 @@ p{
     }
 
 }
+
+/* ==========================
+   BOTÃO VOLTAR AO TOPO
+========================== */
+
+#btnTopo{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:30px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#434C3D;
+
+    color:#FFFFFF;
+
+    font-size:1.5rem;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+#btnTopo:hover{
+
+    background:#A9715E;
+
+    transform:translateY(-3px);
+
+}
+
+#btnTopo.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
