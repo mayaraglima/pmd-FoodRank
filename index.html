@@ -1,74 +1,469 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Projeto</title>
+
+    <title>Lumine | Projeto de Avaliação e Recomendação de Restaurantes</title>
+
+    <meta name="description"
+        content="Lumine é um projeto acadêmico que propõe uma plataforma para avaliação e recomendação de restaurantes.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
 
 <header>
-    <img src="assets/logo.svg" alt="Logo do Projeto" class="logo">
 
-    <h1>Nome do Projeto</h1>
+    <nav class="navbar">
 
-    <p>Uma frase resumindo a proposta do projeto.</p>
+        <div class="container navbar-content">
+
+            <a href="#" class="logo">
+
+                <img src="assets/Logo Lumine.png" alt="Logo Lumine">
+
+            </a>
+
+            <ul class="menu">
+
+                <li><a href="#sobre">Sobre</a></li>
+
+                <li><a href="#problema">O Problema</a></li>
+
+                <li><a href="#funcionamento">Como Funcionará</a></li>
+
+                <li><a href="#objetivos">Objetivos</a></li>
+
+                <li><a href="#tecnologias">Tecnologias</a></li>
+
+                <li><a href="#equipe">Equipe</a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
 </header>
 
-<nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#objetivos">Objetivos</a>
-    <a href="#tecnologias">Tecnologias</a>
-    <a href="#equipe">Equipe</a>
-</nav>
+<section class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <img src="assets/Logo Lumine.png"
+                alt="Logo Lumine"
+                class="hero-logo">
+
+            <span class="badge">
+
+                Projeto Multidisciplinar • Plataforma Web
+
+            </span>
+
+            <h1>
+
+                Uma nova proposta para descobrir e avaliar restaurantes.
+
+            </h1>
+
+            <p>
+
+                A Lumine é um projeto acadêmico que propõe o desenvolvimento de
+                uma plataforma onde usuários poderão compartilhar avaliações,
+                registrar experiências gastronômicas e descobrir novos restaurantes
+                por meio de recomendações da comunidade.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#sobre" class="btn-primary">
+
+                    Conheça o projeto
+
+                </a>
+
+                <a href="#problema" class="btn-secondary">
+
+                    Saiba mais
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="assets/hero.png"
+                alt="Restaurante">
+
+        </div>
+
+    </div>
+
+</section>
 
 <main>
 
 <section id="sobre">
-    <h2>Sobre o Projeto</h2>
 
-    <p>
-        Explique qual problema o projeto resolve e por que ele é importante.
-    </p>
+    <div class="container">
+
+        <h2>Sobre a Lumine</h2>
+
+        <p>
+
+            A Lumine nasce da ideia de criar um ambiente colaborativo para reunir
+            avaliações e recomendações de restaurantes em uma única plataforma.
+            O projeto busca facilitar a escolha de novos estabelecimentos,
+            incentivando o compartilhamento de experiências entre os usuários
+            de forma simples, organizada e confiável.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section id="problema">
+
+    <div class="container">
+
+        <h2>O Problema</h2>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <h3>Informações dispersas</h3>
+
+                <p>
+
+                    Atualmente, avaliações e recomendações estão distribuídas
+                    em diferentes plataformas, dificultando a busca por informações
+                    completas e confiáveis.
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Dificuldade na escolha</h3>
+
+                <p>
+
+                    Muitas pessoas encontram dificuldades para escolher um
+                    restaurante que atenda às suas expectativas apenas com
+                    avaliações superficiais.
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Experiência do usuário</h3>
+
+                <p>
+
+                    Falta um ambiente focado na troca de experiências
+                    gastronômicas de forma organizada e colaborativa.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="funcionamento">
+
+    <div class="container">
+
+        <h2>Como Funcionará</h2>
+
+        <p>
+
+            A proposta da Lumine é oferecer uma plataforma intuitiva
+            onde usuários poderão pesquisar restaurantes,
+            compartilhar experiências e consultar recomendações
+            feitas pela comunidade.
+
+        </p>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <h3>Pesquisar</h3>
+
+                <p>
+
+                    Os usuários poderão localizar restaurantes pelo nome, pela classificação de avaliação e/ou cadastrar o restaurante caso não seja encontrado
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Avaliar</h3>
+
+                <p>
+
+                    Após visitar um estabelecimento, será possível registrar
+                    notas, comentários e recomendações.
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Descobrir</h3>
+
+                <p>
+
+                    As avaliações da comunidade ajudarão outras pessoas
+                    a conhecerem novos restaurantes com mais confiança.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
 </section>
 
 <section id="objetivos">
-    <h2>Objetivos</h2>
 
-    <ul>
-        <li>Objetivo 1</li>
-        <li>Objetivo 2</li>
-        <li>Objetivo 3</li>
-    </ul>
+    <div class="container">
+
+        <h2>Objetivos</h2>
+
+        <p>
+            O principal objetivo da Lumine é desenvolver uma plataforma moderna e intuitiva
+            para avaliação e recomendação de restaurantes, incentivando a colaboração entre usuários.
+        </p>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <h3>Centralizar informações</h3>
+
+                <p>
+                    Reunir avaliações, comentários e recomendações em um único ambiente.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Facilitar decisões</h3>
+
+                <p>
+                    Auxiliar usuários na escolha de restaurantes através de experiências reais.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Comunidade</h3>
+
+                <p>
+                    Incentivar o compartilhamento de opiniões e recomendações gastronômicas.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Interface intuitiva</h3>
+
+                <p>
+                    Desenvolver uma plataforma simples, agradável e acessível para qualquer usuário.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
 </section>
 
 <section id="tecnologias">
-    <h2>Tecnologias</h2>
 
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-    </ul>
+    <div class="container">
+
+        <h2>Tecnologias</h2>
+
+        <p>
+
+            O desenvolvimento da Lumine utilizará tecnologias modernas voltadas para aplicações web.
+
+        </p>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <h3>HTML5</h3>
+
+                <p>
+
+                    Estruturação semântica das páginas do projeto.
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>CSS3</h3>
+
+                <p>
+
+                    Desenvolvimento da identidade visual e da responsividade.
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>JavaScript</h3>
+
+                <p>
+
+                    Responsável pelas interações e funcionalidades da interface.
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>APIs</h3>
+
+                <p>
+
+                    Integração planejada para obtenção de informações sobre restaurantes.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
 </section>
 
 <section id="equipe">
-    <h2>Equipe</h2>
 
-    <p>
-        Apresente os integrantes da equipe.
-    </p>
+    <div class="container">
+
+        <h2>Equipe</h2>
+
+        <p>
+
+            Projeto desenvolvido pela equipe responsável pela idealização, planejamento
+            e implementação da plataforma Lumine.
+
+        </p>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <h3>Mayara Gonçalves</h3>
+
+                <p>
+
+                    Desenvolvimento Front-end
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3> Thifany Bulgarelli </h3>
+
+                <p>
+
+                    Desenvolvimento Back-end
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3> Isabele Gomes </h3>
+
+                <p>
+
+                    Banco de Dados e Documentação
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
 </section>
 
 </main>
 
 <footer>
-    <p>Projeto Multidisciplinar • 2026</p>
+
+    <div class="container">
+
+        <p>
+
+            <strong>Lumine</strong> — Projeto Multidisciplinar • 2026
+
+        </p>
+
+        <p>
+
+            Plataforma de Avaliação e Recomendação de Restaurantes
+
+        </p>
+
+    </div>
+
 </footer>
 
 <script src="js/script.js"></script>
 
 </body>
+
 </html>
