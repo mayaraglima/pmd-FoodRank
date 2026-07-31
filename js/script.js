@@ -25,3 +25,39 @@ btnTopo.addEventListener("click", () => {
     });
 
 });
+
+const track = document.querySelector(".carousel-track");
+
+const next = document.querySelector(".next");
+
+const prev = document.querySelector(".prev");
+
+function cardWidth(){
+
+    return document.querySelector(".member-card").offsetWidth + 25;
+
+}
+
+next.addEventListener("click",()=>{
+
+    track.scrollBy({
+
+        left:cardWidth(),
+
+        behavior:"smooth"
+
+    });
+
+});
+
+prev.addEventListener("click",()=>{
+
+    track.scrollBy({
+
+        left:-cardWidth(),
+
+        behavior:"smooth"
+
+    });
+
+});
